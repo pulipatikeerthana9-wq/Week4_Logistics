@@ -1,0 +1,26 @@
+test_duplicates_fail (test_week4.DataModelTests.test_duplicates_fail) ... ok
+test_feature_whitelist (test_week4.DataModelTests.test_feature_whitelist) ... ok
+test_hand_metrics (test_week4.DataModelTests.test_hand_metrics) ... ok
+test_insufficient_dates (test_week4.DataModelTests.test_insufficient_dates) ... ok
+test_invalid_simulation (test_week4.DataModelTests.test_invalid_simulation) ... ok
+test_label_purge (test_week4.DataModelTests.test_label_purge) ... ok
+test_missing_feature_fails (test_week4.DataModelTests.test_missing_feature_fails) ... ok
+test_negative_feature_fails (test_week4.DataModelTests.test_negative_feature_fails) ... ok
+test_seed_reproducible (test_week4.DataModelTests.test_seed_reproducible) ... ok
+test_unseen_category_and_missing_numeric (test_week4.DataModelTests.test_unseen_category_and_missing_numeric) ... ok
+test_brute_force_optimum (test_week4.OptimizationTests.test_brute_force_optimum) ... ok
+test_empty_candidates (test_week4.OptimizationTests.test_empty_candidates) ... ok
+test_invalid_budget (test_week4.OptimizationTests.test_invalid_budget) ... ok
+test_invalid_capacity (test_week4.OptimizationTests.test_invalid_capacity) ... ok
+test_invalid_cost (test_week4.OptimizationTests.test_invalid_cost) ... ok
+test_length_mismatch (test_week4.OptimizationTests.test_length_mismatch) ... ok
+test_no_profitable_action (test_week4.OptimizationTests.test_no_profitable_action) ... ok
+test_optimum_not_worse_than_greedy (test_week4.OptimizationTests.test_optimum_not_worse_than_greedy) ... ok
+test_scenario_preserves_promises (test_week4.OptimizationTests.test_scenario_preserves_promises) ... ok
+test_zero_budget (test_week4.OptimizationTests.test_zero_budget) ... ok
+test_zero_capacity (test_week4.OptimizationTests.test_zero_capacity) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.155s
+
+OK

@@ -1,0 +1,35 @@
+{
+  "status": "Entirely simulated; parameters are illustrative, not market estimates",
+  "seed": 2026,
+  "shipments": 3000,
+  "period": "2026-01-01 to 2026-06-30 dispatch dates",
+  "currency": "INR",
+  "monthly_sampling_weights": [
+    1.0,
+    1.0,
+    1.1,
+    1.2,
+    1.4,
+    1.6
+  ],
+  "region_probabilities": [
+    0.28,
+    0.26,
+    0.22,
+    0.24
+  ],
+  "express_probability": 0.3,
+  "distance_km": "Gamma(shape=3, scale=170), clipped 40 to 1800; rounded 1 decimal",
+  "units": "Integer uniform 5 to 100 inclusive",
+  "weight_kg": "units * Uniform(1,4), rounded 2 decimals",
+  "dwell_hours": "Gamma(shape=2, scale=4) + 12 in East + 2 in North",
+  "promised_days": "ceil(distance/600) + 1 for Standard; ceil(distance/900) for Express",
+  "transit_days": "max(1, ceil(distance/speed + dwell/24 + Normal(0.15,0.45))); speed 500 Standard, 850 Express",
+  "cost_fixed_inr": "300 Standard or 500 Express",
+  "cost_distance_inr": "distance * 4 Standard or * 6 Express",
+  "cost_weight_inr": "weight * 2",
+  "cost_handling_inr": "dwell * 8",
+  "cost_variation_inr": "Uniform(0,150)",
+  "total_cost": "Sum of five rounded components; no warehouse inventory, fuel market, VAT or profit model",
+  "limitations": "All relationships reflect the programmed scenario; dates have no observed seasonality; rates are assumptions; no cancellations or split shipments."
+}

@@ -1,0 +1,32 @@
+{
+  "study_status": "Entirely hypothetical simulation; not company performance",
+  "n_shipments": 3000,
+  "train_n": 2319,
+  "test_n": 649,
+  "purged_pre_june_n": 32,
+  "selected_model": "Linear regression",
+  "selected_parameters": {},
+  "cv_mae_days": 0.4294647141573724,
+  "holdout_metrics": {
+    "mae_days": 0.4417919004881457,
+    "rmse_days": 0.5494517401263674,
+    "r2": 0.5363173275016468
+  },
+  "within_one_day_fraction": 0.9414483821263482,
+  "p90_absolute_error_days": 0.8813916080719967,
+  "mean_residual_days": 0.030489671740840787,
+  "optimization": {
+    "budget_inr": 30000.0,
+    "penalty_inr_per_day": 1500.0,
+    "daily_upgrade_cap": 4,
+    "upgrades": 1,
+    "extra_spend_inr": 457.8,
+    "predicted_tardiness_days_before": 159.39154153831365,
+    "predicted_tardiness_days_after": 159.0672139828554,
+    "predicted_days_avoided": 0.3243275554582423,
+    "net_modeled_benefit_inr": 28.691333187363455,
+    "greedy_net_benefit_inr": 28.691333187363455,
+    "solver_success": true,
+    "mip_gap": 0.0
+  }
+}

@@ -1,0 +1,4 @@
+validation_month,train_n,validation_n,purged_n,latest_training_delivery
+2026-03,755,500,23,2026-02-28
+2026-04,1248,446,30,2026-03-31
+2026-05,1694,627,30,2026-04-30

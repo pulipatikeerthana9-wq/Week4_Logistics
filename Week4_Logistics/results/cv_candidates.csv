@@ -1,0 +1,13 @@
+candidate_id,model,parameters,cv_mae_days,cv_mae_sd
+1,Linear regression,{},0.4294647141573724,0.004366694615645957
+8,Random forest,"{""n_estimators"": 100, ""max_depth"": 6, ""min_samples_leaf"": 2}",0.44058871448955467,0.01319026578012404
+9,Random forest,"{""n_estimators"": 100, ""max_depth"": 6, ""min_samples_leaf"": 8}",0.4425939277170636,0.012790485916321148
+11,Random forest,"{""n_estimators"": 100, ""max_depth"": null, ""min_samples_leaf"": 8}",0.44497468791646594,0.011080429629882498
+10,Random forest,"{""n_estimators"": 100, ""max_depth"": null, ""min_samples_leaf"": 2}",0.4483888287629017,0.010323492272569049
+4,Decision tree,"{""max_depth"": 6, ""min_samples_leaf"": 5}",0.4576582241720201,0.0178609886348072
+5,Decision tree,"{""max_depth"": 6, ""min_samples_leaf"": 20}",0.46225638425635346,0.013531861459687418
+7,Decision tree,"{""max_depth"": 10, ""min_samples_leaf"": 20}",0.46685088900335076,0.01041060439549523
+6,Decision tree,"{""max_depth"": 10, ""min_samples_leaf"": 5}",0.4836553332932591,0.01749061593384121
+2,Decision tree,"{""max_depth"": 3, ""min_samples_leaf"": 5}",0.5049959154656575,0.013126929505923174
+3,Decision tree,"{""max_depth"": 3, ""min_samples_leaf"": 20}",0.5058677103374523,0.014208148219767071
+0,Dummy mean,{},0.561850645447823,0.012524355452658398
